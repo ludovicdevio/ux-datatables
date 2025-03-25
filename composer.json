@@ -1,0 +1,49 @@
+{
+  "name": "ludovicdevio/ux-datatables",
+  "type": "symfony-bundle",
+  "description": "DataTables.net integration for Symfony",
+  "keywords": [
+    "symfony-ux"
+  ],
+  "homepage": "https://github.com/ludovicdevio/ux-datatables",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ludovic MOYO",
+      "email": "ludovicdev.io@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ludovicdevio\\UX\\DataTables\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ludovicdevio\\UX\\DataTables\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "symfony/config": "^7.0",
+    "symfony/dependency-injection": "^7.0",
+    "symfony/http-kernel": "^7.0",
+    "symfony/stimulus-bundle": "^2.22"
+  },
+  "require-dev": {
+    "symfony/framework-bundle": "^7.0",
+    "symfony/phpunit-bridge": "^7.0",
+    "symfony/twig-bundle": "^7.0",
+    "symfony/var-dumper": "^7.0",
+    "phpunit/phpunit": "^11.5"
+  },
+  "conflict": {
+    "symfony/flex": "<1.13"
+  },
+  "extra": {
+    "thanks": {
+      "name": "symfony/ux",
+      "url": "https://github.com/symfony/ux"
+    }
+  }
+}
